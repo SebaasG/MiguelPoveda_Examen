@@ -1,0 +1,313 @@
+@media only screen and (max-width: 767px) {
+  .containerP {
+    display: block !important;
+    width: 80%;
+    height: 60vh;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+
+  .InfoCover {
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .InfoCover img{
+    margin-bottom:2vh ;
+  }
+
+
+  .headerBody{
+     margin-left: 20vh !important;
+  }
+  .imgfinish{
+    width: 0px;
+  }
+  
+  .numberhome{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+  }
+
+  .perroCover{
+    width: 60%;
+    height: auto;
+  }
+
+  .InfoCover img {
+    width: 60%;
+    height: auto;
+  }
+
+  .imgCover {
+  margin-top: 2vh;
+    margin-right: 18%;
+    margin-bottom: 2vh;
+  
+  }
+
+  .imgCover img {
+    width: 200px !important;
+    height: 140px;
+  }
+
+  .InfoCover h1 {
+    font-size: 2vh;
+    height: auto;
+  }
+
+  .headerBody{
+    margin-top: 10px !important;
+    
+  }
+
+  .textNav{
+    border-bottom: 2px solid gray ;
+    display: flex;
+    width: auto;
+    text-indent: 10px;
+  }
+
+  
+.navHome {
+    text-decoration: none !important;
+    color: black;
+    display: flex !important;
+    width: auto !important;;
+    height: 40px;
+    font-size: 1.5vh;
+    text-align: center;
+    align-items: center;
+}
+
+
+.textNav:hover{
+    border-bottom: none !important;
+
+}
+.navHome:hover{
+    
+    border-bottom: 2px solid black;
+
+  }
+
+  .headerCont{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    color: black;
+    font-size: 1.5vh;
+    padding: 10px;
+    margin-left: 2vh;
+    margin-right: 4vh;
+  }
+
+  .infoHome{
+    margin-top: 5vh;
+    width: 75%;
+  }
+
+  .infoHome img{
+    
+    height: 18vh; 
+    width: auto;
+  }
+
+  .beforebody{
+    margin-top: 10px;
+    display: block !important;
+    justify-content: center !important;
+    text-align: center;
+    width: 70%;
+    margin-left: 18%;
+    margin-right: 15%;
+
+  }
+
+  .beforebody p{
+    margin-top: 10px;
+    font-size: 2vh;
+  }
+
+  .imgHomeH img{
+    margin-top: 5vh;
+    height: 20vh; 
+    width: auto;
+    margin-right: 2vh;
+  }
+  .imgHomeH a{
+    background-color: black;
+    height:  5px;
+    text-decoration: none;
+    width: 50px;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4vh;
+  }
+.containerHome{
+  display: flex;
+  justify-content: space-around;
+}
+
+.number{
+  width: 20% !important;
+  background-color: aqua;
+}
+.text{
+  width: 60%;
+
+}
+.img{
+  width: 20%;
+  background-color: bisque;
+}
+
+.headerBody {
+  display: flex !important;
+  margin: 0% !important; 
+  position: fixed;
+  width: 100%;
+  justify-content: space-between;
+}
+  .headerBody img {
+    width: auto !important;
+    height: 30px;
+  }
+
+
+
+/* Contenedor de texto dentro de cada paso */
+.text {
+  width: 60%;
+  padding: 10px;
+}
+
+/* Contenedor de las imágenes dentro de cada paso */
+.img {
+  width: 20%;
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilos adicionales para asegurarse de que las imágenes se ajusten */
+.imgfinish {
+  width: 100%;
+  height: auto;
+}
+
+/* Ajustes de flexbox para centrar el contenido en dispositivos pequeños */
+.step {
+  margin-top: 2vh;
+
+  margin-left: vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  gap: 10px;  
+}
+
+#footer{
+  margin-left: 20px;
+
+}
+.containerapo{
+  margin-left: 20px !important;
+  margin-top: 20px ;
+  display: flex;
+  justify-content: space-between;
+}
+
+.textApo p{
+  margin-top: 20px;
+}
+
+
+.imgApoya img{
+
+  width: auto;
+  height: 120px;
+}
+
+
+
+.containerapo{
+  margin-left: 2vh;
+  margin-top: 20px ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+}
+
+.textApo p{
+  margin-top: 20px;
+}
+
+
+.imgApoya img{
+ 
+  width: auto;
+  height: 120px;
+}
+
+.clickable-link{
+  text-decoration: none;
+  color: black;
+}
+
+
+  /* Contenedor general para las tarjetas de cada paso del juego */
+  .containerHome {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Esto permite que los elementos se apilen en pantallas más pequeñas */
+    gap: 20px;  /* Espaciado entre las columnas */
+  }
+
+  /* Contenedor de cada número en el paso */
+  .number {
+    width: 20% !important;
+    background-color: aqua;
+    text-align: center;
+    padding: 10px;
+  }
+
+ 
+
+  .footercovers img{
+    width: auto;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    margin-left:23% ;
+  }
+
+}
+ 
